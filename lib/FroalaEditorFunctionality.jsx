@@ -1,5 +1,5 @@
-/* global $ */
 import React from 'react';
+import $ from 'jquery'
 
 export default class FroalaEditorFunctionality extends React.Component {
   constructor(props) {

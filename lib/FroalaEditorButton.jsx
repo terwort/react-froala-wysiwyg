@@ -5,7 +5,7 @@ export default class FroalaEditorButton extends FroalaEditorFunctionality {
 
   render () {
     return (
-      <button ref='el'>{this.props.children}</button>
+      <button ref={this.el}>{this.props.children}</button>
     );
   }
 }

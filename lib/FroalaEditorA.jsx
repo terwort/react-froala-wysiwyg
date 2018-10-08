@@ -5,7 +5,7 @@ export default class FroalaEditorA extends FroalaEditorFunctionality {
 
   render () {
     return (
-      <a ref='el'>{this.props.children}</a>
+      <a ref={this.el}>{this.props.children}</a>
     );
   }
 }
